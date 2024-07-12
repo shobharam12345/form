@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h2>Feedback Form</h2>
+
+
+        <form>
+<div>
+  
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" minlength="3" maxlength="50" required>  
+</div>
+<div>
+    <label for="portfolio">Portfolio:</label>
+    <input type="url" id="portfolio">
+
+</div>
+           <div>
+            <label for="favColor">Favorite Color:</label>
+            <input type="color" id="favColor">
+        </div> 
+        <div
+            <label for="rage">range :</label>
+            <input type="range" min="1" max="100">
+        </div>
+        <div>
+
+        </div>
+            <input type="checkbox">
+            <input type="file">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+      
+<!-- type=text,number,date,range,color,password,checkbox,url,file,select. -->
+
+<!-- <select name="" id="" required="number"> -->
+
+<!-- 
+<option value="1">1</option>
+<option value="2" selected>2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option> -->
+  <textarea name="comment" id="comment" placeholder="enter about your self" width="" hight="" rows="3" cols="3"></textarea>
+</select>
+</body>
+</html>
